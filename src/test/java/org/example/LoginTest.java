@@ -1,7 +1,7 @@
 package org.example;
 
-import org.example.pages.LoginPage;
-import org.example.pages.ProfilePage;
+import org.example.pages.login.LoginPage;
+import org.example.pages.profile.ProfilePage;
 import org.example.util.ConfProperties;
 import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
@@ -14,7 +14,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 
-public class MyTest {
+public class LoginTest {
     public static LoginPage loginPage;
     public static ProfilePage profilePage;
     public static WebDriver driver;
