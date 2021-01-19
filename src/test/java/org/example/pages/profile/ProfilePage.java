@@ -21,8 +21,7 @@ public class ProfilePage {
     private WebElement logoutBtn;
 
     public String getUserName() {
-        String userName = userMenu.getText();
-        return userName;
+        return userMenu.getText();
     }
 
     public void entryMenu() {
