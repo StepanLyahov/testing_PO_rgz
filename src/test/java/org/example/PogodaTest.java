@@ -30,7 +30,7 @@ public class PogodaTest {
     }
 
     @Test
-    public void loginTest() {
+    public void checkPogodaTest() {
 
         String tempersture = pogodaPage.getFastInfElement().getMainTemperate();
         System.out.println("Tempersture: " + tempersture);

@@ -1,15 +1,15 @@
-package org.example.pages.pogoda;
+package org.example.pages.pogoda.component;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class PogodaFastInfElement {
+public class PogodaFastInfComponent {
 
     private WebDriver driver;
 
-    public PogodaFastInfElement(WebDriver driver) {
+    public PogodaFastInfComponent(WebDriver driver) {
         PageFactory.initElements(driver, this);
         this.driver = driver;
     }
